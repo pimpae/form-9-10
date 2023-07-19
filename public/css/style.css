@@ -1,0 +1,107 @@
+a:hover{
+  text-decoration: none;
+}
+body{
+  font-family: 'Sarabun', sans-serif;
+  background-color: #F8F8F8;
+}    
+ 
+header{
+  height: 70px;
+  box-shadow: 0px 0px 10px #0000004E; 
+  padding: 20px;
+}
+header span{ 
+  color: #41B6FF;
+} 
+h6 span{ 
+  float: right;
+  text-align: right;
+}
+main{
+  padding: 15px;
+}
+main label{
+  font-size: 16px;
+}
+main input.form-control{
+  font-size: 16px;
+  border-radius: 8px;
+  height: 38px;
+  background-color: #F8F8F8;
+  margin-bottom: 15px;
+}
+main p{
+  font-size: 14px; 
+  margin-top: 8px;
+} 
+.selectpicker{
+  display: block;
+  width: 100%;
+}
+.btn-light{ 
+  border: 1px solid #ced4da; 
+  height: 38px;  
+  border-radius: 8px;
+  background-color: #F8F8F8;
+}
+.bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+  outline: none !important;
+  outline-offset: none !important;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100% !important;
+}
+.filter-option-inner-inner{
+  font-size: 12px;
+  color: #000;
+  line-height: 24px;
+}
+.dropdown-menu.inner .dropdown-item .text{
+  font-size: 12px;
+  color: #000;
+  line-height: 24px;
+}
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle { 
+  background-color: #fff;
+  border-color: #F8F8F8;
+  color: #000;
+}
+.btn-light:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #F8F8F8;
+} 
+.form-control + .icon-span{
+  position: absolute;
+  right: 23px;
+  top: 7px;
+  color: var(--bg-grey);
+} 
+.texts{
+  font-size: 14px;
+}
+
+/*
+
+transition: .33s all ease-out; 
+font-family: 'Rubik', sans-serif;
+font-family: 'Noto Sans Thai', sans-serif;
+font-family: 'Kanit', sans-serif;
+#41B6FF
+ 
+######################################################################################################
+###################################################################################################### 
+*/ 
+
+@media only screen and (max-width: 1024px) { /* MOBILE */
+  .mb-x{
+    display: none !important;
+  }   
+}
+@media only screen and (min-width: 1025px) { /* PC */
+  .pc-x{
+    display: none !important;
+  }  
+}  
